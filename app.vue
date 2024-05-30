@@ -1,18 +1,15 @@
 <template>
-  <h1 class="text-3xl font-bold underline text-red-500">
-    {{ aaa }}{{ test }}
-  </h1>
+  <NuxtPage />
 </template>
 
-<script setup lang="ts">
-const aaa = "測試用"
+<script setup>
 </script>
 
-<script lang="ts">
+<script>
 export default {
   data() { 
     return {
-      test:'aaa',
+      
     }
   },
 }
